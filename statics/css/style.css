@@ -174,12 +174,11 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer {
-    position: sticky; 
-    / *position: fixed; */
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
@@ -194,7 +193,7 @@ main {
     grid-auto-flow: column;
     list-style: none;
     color: #6e6e6e;
-
+    padding-botton: 1em;
 }
 
 .tab-list a {
