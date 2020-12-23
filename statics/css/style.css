@@ -29,7 +29,7 @@ body {
     color: white;
     margin: 0;
     font-family: 'Netflix';
-    padding-bottom: 108px;
+    / * padding-bottom: 108px; */
 }
 
 a {
@@ -174,12 +174,12 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    gap: .5px;
+    gap: 10px;
 }
 
 .footer {
-    / *position: sticky; */
-    position: fixed;
+    position: sticky; 
+    / *position: fixed; */
     bottom: 0;
     left: 0;
     right: 0;
